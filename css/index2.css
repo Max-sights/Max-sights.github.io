@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*bottom-низ top-верх left-лево right-справа (border) box-shadow: 5px-влево 5px-вниз 10px-радиус 15px-расстояние тени inset-тень внутрь блока outline-линия около текста
+opacity-прозрачность текста 0-1
+пример
+
+margin
+ margin-bottom: 0
+margin-left: 0
+margin-right: 0
+margin-top: 0
+
+.example-block{
+
+
+visibility: visible;
+font-size: 30px;
+
+}
+
+.example-string{
+
+display: block;
+font-size: 30px;
+border: 6px solid #000;
+}
+
+.example-image{
+
+	border-radius: 50px;
+	overflow: hidden;
+
+	}*/
+	/*background: url("../img/ex1.jpg");- ЦВЕТ БЛОКА div  */ 
+	/*Old browser
+.bodycolor{
+
+  background: rgb(132,174,241);
+background: radial-gradient(circle, rgba(132,174,241,1) 0%, rgba(83,76,210,1) 51%, rgba(140,152,238,1) 100%);
+	}
+ВАЖНЫЙ КОД БЭКГРАУНД градиент !!!!!!
+
+height: 200px;
+border-radius: 15px;
+box-shadow: 0 0 10px 6px #000
+таблица
+
+body{
+background: url(../img/nature.jpg) round fixed;
+	padding: 150px 30px 30px 30px;
+	body 
+*/
+body{
+background-image: url(../img/h180.jpg);
+ background-position: fixed;
+background-repeat: no-repeat-y;
+}
+
+.vstuplenie{
+margin: auto;
+margin-bottom: 75px;
+height: 10%;
+width: 25%;
+box-shadow:  1px /*влево*/ 2px /*вниз*/ 4px /*радиус*/ 3px /*расстояние тени*/;
+margin-top: 15px;
+padding-top: 25px;
+background: rgb(227,227,238);
+background: linear-gradient(90deg, rgba(227,227,238,1) 0%, rgba(9,121,116,0.6671043417366946) 50%, rgba(227,227,238,1) 100%);
+overflow: hidden;
+background-image: url(../img/history_2.jpg);
+
+}
+
+
+
+.osnova{
+	margin-bottom: 25px;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+ hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: black; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+   }
+
+   .cartinka{
+   	margin: 30px;
+   	box-shadow:  1px /*влево*/ 2px /*вниз*/ 4px /*радиус*/ 3px /*расстояние тени*/;
+   	border-radius: 80px;
+   	margin-left: 560px;
+   }
+
+   .text2{
+   	font-size: 18px;
+   }
+
+.vstuplenie2{
+
+	margin: auto;
+
+height: 10%;
+width: 53%;
+box-shadow: #3a0657  1px /*влево*/ 2px /*вниз*/ 4px /*радиус*/ 3px /*расстояние тени*/;
+margin-top: 15px;
+padding-top: 25px;
+
+
+overflow: hidden;
+background-image: url(../img/muzei.jpg);
+
+}
+
+
+.vockl_2{
+margin-left: 950px;
+}
